@@ -42,6 +42,9 @@ section{
 }
 
 
+
+
+
 .fundo{
   background-size: cover;
   background-position: center;
@@ -82,15 +85,15 @@ section{
   background-size: cover;
 }
 
-.up-and-down::before{
-  background:url(../images/img-top.png) no-repeat;
+/* .up-and-down::before{
+  background:url(../images/img-top.png);
   top:-6rem;
 }
 
 .up-and-down::after{
   background:url(../images/img-down.png) no-repeat;
   bottom:-6rem;
-}
+} */
 
 .heading{
   text-align: center;
@@ -654,6 +657,7 @@ header .navbar a:hover{
 
   .home .content{
     text-align: center;
+    
   }
 
   .home .content h1{
@@ -668,6 +672,7 @@ header .navbar a:hover{
   
   .home .content p{
     font-size: 1.5rem;
+   
   }
 
   .features{
@@ -829,6 +834,7 @@ header .navbar a:hover{
 }
 
 
+
 .image-c{
   flex: -1; /* A imagem ocupará metade da largura da seção, ajuste conforme necessário */
   padding: 20px; /* Adicione espaçamento conforme necessário */
@@ -846,3 +852,8 @@ header .navbar a:hover{
 }
 
 
+.content li{
+  font-size: 2rem;
+  color:#666;
+
+}
