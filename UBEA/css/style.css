@@ -43,6 +43,13 @@ section{
 
 
 
+.background-2{
+  background: url(../images/fim.jpg)  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 
 .fundo{
@@ -747,6 +754,233 @@ header .navbar a:hover{
   justify-content: center;
   background-image: url(../images/fundo.png);
 }
+
+
+
+
+
+
+/* sobre do veterinario */
+
+
+
+
+.sobrevet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrevet .image img{
+  width:45vw;
+}
+
+.sobrevet .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrevet .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrevet .image img{
+  display: none;
+}
+
+.sobrevet .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrevet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundovet.png);
+}
+
+
+
+
+
+
+
+/* sobre do pet */
+
+
+
+
+.sobrepet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrepet .image img{
+  width:45vw;
+}
+
+.sobrepet .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrepet .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrepet .image img{
+  display: none;
+}
+
+.sobrepet .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrepet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundopet.png);
+}
+
+
+
+
+
+
+
+/* sobre do hotel */
+
+
+
+
+.sobrehot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrehot .image img{
+  width:45vw;
+}
+
+.sobrehot .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrehot .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrehot .image img{
+  display: none;
+}
+
+.sobrehot .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrehot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundohot.png);
+}
+
+
+
+
+
+
+
+
+
+/* sobre do diversos */
+
+
+
+
+
+.sobredi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobredi .image img{
+  width:45vw;
+}
+
+.sobredi .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobredi .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobredi .image img{
+  display: none;
+}
+
+.sobredi .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobredi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundodi.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services {
+  background-image: url(../images/fundo.png);
+}
+
+
+
+
+
+
+
+
 
 
 
