@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color:  #ffefef;
+  background-color:  #9d4e15;
   
 }
 
@@ -255,28 +255,22 @@ header .navbar a:hover{
 
 
 
-
 .services .box-container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
-
-
-  
 }
+
 
 .services .box-container .box{
   overflow: hidden;
   flex:1 1 30rem;
   margin:1rem;
-  border-radius: 1rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   position: relative;
   cursor: pointer;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 
@@ -289,7 +283,7 @@ header .navbar a:hover{
 .services .box-container .box .info{
   height: 100%;
   width: 100%;
-  background:rgba(0,0,0,.7);
+  background:#FF8787;
   text-align: center;
   position: absolute;
   top:-100%; left: 0;
@@ -321,9 +315,6 @@ header .navbar a:hover{
 .teacher{
   background-color: #FFFCF7;
 }
-
-
-
 
 
 .teacher .box-container{
