@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UBEA</title>
 
-    <!-- font awesome cdn link  -->
+    <!-- fonte cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <!-- custom css file link  -->
+    <!-- css link  -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
     
-<!-- header section starts  -->
+<!-- a sessão do header começa  -->
 
 <header>
 
@@ -24,7 +24,6 @@
 
     <nav class="navbar">
         <a href="#home">Início</a>
-    <!--<a href="#features">Objetivos</a> -->
         <a href="#sobre">Sobre</a>
         <a href="#calendarios">Calendários</a>
         <a href="#parceiros">Parceiros</a>
@@ -33,9 +32,9 @@
 
 </header>
 
-<!-- header section ends -->
+<!-- a sessão do header acaba -->
 
-<!-- home section starts  -->
+<!-- a sessão do home começa  -->
 
 <section class="home background-1" id="home">
 
@@ -79,8 +78,8 @@
     </div>
 
 </section>
-<!--calendários, modificação-->
 
+<!--calendários, modificação-->
 
 <section class="calendario fundo" id="calendarios">
 
@@ -183,11 +182,40 @@
 
     </div>
 
-    <!-- <div class="image">
-        <img src="images/fim.jpg" alt="">
-    </div> -->
-
 </section>
+
+
+<script>
+
+    let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.addEventListener('click', () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('nav-toggle');
+    });
+    
+    window.onscroll = () =>{
+        menu.classList.remove('fa-times');
+        navbar.classList.remove('nav-toggle');
+    }
+    
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
