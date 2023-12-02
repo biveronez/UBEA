@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color:  #9d4e15;
+  background-color:  #470000;
   
 }
 
@@ -74,7 +74,7 @@ section{
   color:#fff;
   font-size: 2rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  background-color: #9d4e15;
+  background-color: #470000;
 }
 
 .btn:hover{
@@ -92,15 +92,15 @@ section{
   background-size: cover;
 }
 
-/* .up-and-down::before{
+.up-and-down::before{
   background:url(../images/img-top.png);
   top:-6rem;
 }
 
 .up-and-down::after{
-  background:url(../images/img-down.png) no-repeat;
+  background:url(../images/img-down.png);
   bottom:-6rem;
-} */
+}
 
 .heading{
   text-align: center;
