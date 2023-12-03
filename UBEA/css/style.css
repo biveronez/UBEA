@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color:  #ffefef;
+  background-color:  #470000;
   
 }
 
@@ -42,6 +42,16 @@ section{
 }
 
 
+
+.background-2{
+  background: url(../images/fim.jpg)  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
 .fundo{
   background-size: cover;
   background-position: center;
@@ -64,7 +74,7 @@ section{
   color:#fff;
   font-size: 2rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  background-color: #9d4e15;
+  background-color: #470000;
 }
 
 .btn:hover{
@@ -83,12 +93,12 @@ section{
 }
 
 .up-and-down::before{
-  background:url(../images/img-top.png) no-repeat;
+  background:url(../images/img-top.png);
   top:-6rem;
 }
 
 .up-and-down::after{
-  background:url(../images/img-down.png) no-repeat;
+  background:url(../images/img-down.png);
   bottom:-6rem;
 }
 
@@ -252,28 +262,22 @@ header .navbar a:hover{
 
 
 
-
 .services .box-container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
-
-
-  
 }
+
 
 .services .box-container .box{
   overflow: hidden;
   flex:1 1 30rem;
   margin:1rem;
-  border-radius: 1rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   position: relative;
   cursor: pointer;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 
@@ -286,7 +290,7 @@ header .navbar a:hover{
 .services .box-container .box .info{
   height: 100%;
   width: 100%;
-  background:rgba(0,0,0,.7);
+  background:#FF8787;
   text-align: center;
   position: absolute;
   top:-100%; left: 0;
@@ -318,9 +322,6 @@ header .navbar a:hover{
 .teacher{
   background-color: #FFFCF7;
 }
-
-
-
 
 
 .teacher .box-container{
@@ -654,6 +655,7 @@ header .navbar a:hover{
 
   .home .content{
     text-align: center;
+    
   }
 
   .home .content h1{
@@ -668,6 +670,7 @@ header .navbar a:hover{
   
   .home .content p{
     font-size: 1.5rem;
+   
   }
 
   .features{
@@ -754,6 +757,233 @@ header .navbar a:hover{
 
 
 
+
+
+
+/* sobre do veterinario */
+
+
+
+
+.sobrevet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrevet .image img{
+  width:45vw;
+}
+
+.sobrevet .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrevet .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrevet .image img{
+  display: none;
+}
+
+.sobrevet .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrevet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundovet.png);
+}
+
+
+
+
+
+
+
+/* sobre do pet */
+
+
+
+
+.sobrepet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrepet .image img{
+  width:45vw;
+}
+
+.sobrepet .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrepet .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrepet .image img{
+  display: none;
+}
+
+.sobrepet .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrepet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundopet.png);
+}
+
+
+
+
+
+
+
+/* sobre do hotel */
+
+
+
+
+.sobrehot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrehot .image img{
+  width:45vw;
+}
+
+.sobrehot .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobrehot .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobrehot .image img{
+  display: none;
+}
+
+.sobrehot .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobrehot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundohot.png);
+}
+
+
+
+
+
+
+
+
+
+/* sobre do diversos */
+
+
+
+
+
+.sobredi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobredi .image img{
+  width:45vw;
+}
+
+.sobredi .content h3{
+  font-size: 4rem;
+  color:var(--red);
+}
+
+.sobredi .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.sobredi .image img{
+  display: none;
+}
+
+.sobredi .content{
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.sobredi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundohot.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services {
+  background-image: url(../images/fundo.png);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*CALENDARIOS*/
 
 
@@ -829,6 +1059,7 @@ header .navbar a:hover{
 }
 
 
+
 .image-c{
   flex: -1; /* A imagem ocupará metade da largura da seção, ajuste conforme necessário */
   padding: 20px; /* Adicione espaçamento conforme necessário */
@@ -846,3 +1077,8 @@ header .navbar a:hover{
 }
 
 
+.content li{
+  font-size: 2rem;
+  color:#666;
+
+}
