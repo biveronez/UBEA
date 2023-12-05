@@ -167,22 +167,6 @@ header .navegation li a {
         left: 50px;
         bottom: 10px;
     }
-<<<<<<< HEAD
-}
-@media (max-width:450px){
-    .content .text h2 span{
-        font-size: 72px;
-    }
-
-    section{
-        padding: 30px;
-    }
-
-    .boxImg{
-        margin-top: -145px;
-    }
-=======
->>>>>>> f51ed9fb74467b7e806cc8c37bef3c3ccb484621
 }
 @media (max-width:450px){
     .content .text h2 span{
