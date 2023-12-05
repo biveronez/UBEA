@@ -157,6 +157,7 @@ header .navegation li a {
     .boxImg{
         position: static;
     }
+    
 }
 @media (max-width:600px){
     section{
