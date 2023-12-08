@@ -61,7 +61,7 @@ header .navegation li a {
   margin-right: 20px;
 }
 .content .text h2 {
-  color: #fff;
+  color: #EDB99F;
   font-size: 2.5em;
   margin-bottom: 10px;
   line-height: 2.5em;
@@ -75,7 +75,7 @@ header .navegation li a {
 }
 
 .content .text p {
-  color: #fff;
+  color: #EDB99F;
 }
 .content .text a {
   display: inline-block;
@@ -138,13 +138,7 @@ header .navegation li a {
   position: absolute;
   right: 0;
   bottom: -40px;
-}
-.boxImg img {
-  width: 200px;
-}
-.boxImg .img1 {
-  width: 400px;
-  height: 400px;
+  right: -95px;
 }
 
 
