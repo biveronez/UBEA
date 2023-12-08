@@ -564,7 +564,7 @@ header .navbar a:hover {
     right: 0;
     height: calc(100vh - 70%);
     border-top: 0.2rem solid #333;
-    background: url(../images/card-bg1.png) no-repeat;
+    background: url(../images_index/bkg.png) no-repeat;
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
