@@ -61,7 +61,7 @@ header .navegation li a {
   margin-right: 20px;
 }
 .content .text h2 {
-  color: #EDB99F;
+  color: #92593e;
   font-size: 2.5em;
   margin-bottom: 10px;
   line-height: 2.5em;
@@ -71,23 +71,25 @@ header .navegation li a {
 /*titulo*/
 .content .text h2 span {
   font-size: 3.5em;
-  color: #470000;
+  color: #92593e;
 }
 
 .content .text p {
-  color: #EDB99F;
+  color: #92593e;
+  font-size: 21px;
 }
 .content .text a {
   display: inline-block;
   margin-top: 50px;
   padding: 10px 25px;
-  background: #470000;
+  background: #92593e;
   color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
   text-decoration: none;
   border-radius: 40px;
   transition: 0.3s ease-in-out;
+  font-size: 19px;
 }
 .content .text a:hover {
   transform: translateY(-10px);
@@ -106,7 +108,7 @@ header .navegation li a {
 .icons li a {
   display: inline-block;
   margin-left: 45px;
-  background: #222;
+  background:   #92593e;
   width: 50px;
   height: 50px;
   display: flex;
@@ -119,7 +121,7 @@ header .navegation li a {
     margin: 0;
 }
 .icons li a:hover {
-  background: #470000;
+  background: #92593e;
   transform: translateY(-10px);
 }
 .icons li a img {

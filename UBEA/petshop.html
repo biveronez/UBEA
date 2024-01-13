@@ -21,10 +21,17 @@
 
     <div id="menu-bars" class="fas fa-bars"></div>
 
-   <nav class="navbar">
+    <a href="index.html" class="logo"><img src="images/logo.png" class="image-logo"></img></i></a>
 
-        <a href="#contact"> Patrocinadores - Pet Shops </a>
-    </nav> 
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="inicio.html#Início">Início</a>
+        <a href="inicio.html#sobre">Sobre</a>
+        <a href="inicio.html#calendarios">Calendários</a>
+        <a href="inicio.html#parceiros">Parceiros</a>
+        <a href="inicio.html#contact">Colabore</a>
+    </nav>
 
 </header>
 
@@ -232,7 +239,18 @@
 
 <script>
 
-
+    let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.addEventListener('click', () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('nav-toggle');
+    });
+    
+    window.onscroll = () =>{
+        menu.classList.remove('fa-times');
+        navbar.classList.remove('nav-toggle');
+    }
 
     /*o header fica branco conforme o rolamento de página*/
     window.addEventListener("scroll", function () {
