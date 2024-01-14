@@ -161,7 +161,7 @@ header .navbar a:hover {
 }
 
 .home .content {
-  max-width: 45%;
+  max-width: 42%;
 }
 
 .home .content h1 {
@@ -175,8 +175,9 @@ header .navbar a:hover {
 }
 
 .home .content p {
-  font-size: 3rem;
-  color: #666;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: justify;
 }
 
 .home .image img {
@@ -647,7 +648,7 @@ header .navbar a:hover {
   }
 
   html{
-    font-size: 45%;
+    font-size: 47%;
   }
 
   .calendario .image-c{
@@ -689,7 +690,6 @@ header .navbar a:hover {
     width: auto;
   }
 }
-
 /*SOBRE*/
 
 .sobre {
