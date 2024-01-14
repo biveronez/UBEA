@@ -176,7 +176,9 @@ header .navbar a:hover {
 
 .home .content p {
   font-size: 3rem;
-  color: #666;
+  color: #333;
+  text-align: justify;
+  max-width: 98%;
 }
 
 .home .image img {
@@ -630,6 +632,7 @@ header .navbar a:hover {
 
 @media (max-width: 450px) {
 
+
   .home .content {
     max-width: 100%;
   }
@@ -644,10 +647,6 @@ header .navbar a:hover {
 
   .contact .box{
     font-size: 35%;
-  }
-
-  html{
-    font-size: 45%;
   }
 
   .calendario .image-c{
@@ -667,7 +666,7 @@ header .navbar a:hover {
   .contact .row .contact-info .box .title,
   .contact .row .contact-info .box p,
   .contact .row .contact-info .box a {
-    color: #92593e !important;
+    color: #361700 !important;
   }
 
   .sobre,
