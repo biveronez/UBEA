@@ -161,7 +161,7 @@ header .navbar a:hover {
 }
 
 .home .content {
-  max-width: 42%;
+  max-width: 45%;
 }
 
 .home .content h1 {
@@ -668,7 +668,7 @@ header .navbar a:hover {
   .contact .row .contact-info .box .title,
   .contact .row .contact-info .box p,
   .contact .row .contact-info .box a {
-    color: #92593e !important;
+    color: #361700 !important;
   }
 
   .sobre,
