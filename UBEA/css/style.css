@@ -631,8 +631,7 @@ header .navbar a:hover {
 
 @media (max-width: 450px) {
 
-
-  .home .content {
+  .home .content{
     max-width: 100%;
   }
 
@@ -648,9 +647,13 @@ header .navbar a:hover {
     font-size: 35%;
   }
 
+  html{
+    font-size: 50%;
+  }
+
   .calendario .image-c{
     max-width: 100%;
-    padding: 0;
+    padding: 20px;
   }
   .features .box-container,
   .features .box-container:first-child {
@@ -673,7 +676,8 @@ header .navbar a:hover {
   .sobrevet,
   .sobrepet,
   .sobrehot,
-  .sobredi {
+  .sobredi,
+  .colabore {
     flex-direction: column;
   }
 
@@ -686,7 +690,20 @@ header .navbar a:hover {
   .image-gm img {
     width: auto;
   }
+  .image-pix img {
+    width: auto;
+  } 
+
+  .image-c img {
+    width: auto;
+  }
+
+  #calendarios .content {
+    flex-grow: unset;
+  }
+   
 }
+
 /*SOBRE*/
 
 .sobre {
@@ -914,22 +931,11 @@ header .navbar a:hover {
   align-items: center;
   justify-content: center;
   background-image: url(../images/fundo.png);
-  
+  text-align: center; 
 }
-
-.calendario {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.calendario .image img {
-  width: 40vw;
-}
-
 .calendario .content h3 {
   font-size: 4rem;
-  color: var(--red);
+  color: #92593e;
 }
 
 .calendario .content p {
@@ -939,14 +945,9 @@ header .navbar a:hover {
   text-align: justify;
 }
 
-.calendario .image img {
-  display: none;
-}
-
 .calendario .content {
   text-align: center;
   font-size: 1.5rem;
-  color: #92593e;
 }
 
 /*deixando a imagem com um espaçamento entre as escrituras do Sobre e Calendário*/
@@ -969,21 +970,21 @@ header .navbar a:hover {
   height: auto;
   display: block;
 }
-
-.content {
-  flex: 1; /* O conteúdo ocupará a outra metade da largura da seção */
-  padding: 20px; /* Adicione espaçamento conforme necessário */
+.content{
+  flex:1;
+  padding: 20px;
 }
 
 .image-c {
-  padding: 20px; /* Adicione espaçamento conforme necessário */  
-  max-width: 820px;
+  flex: 1;
+  text-align: right;
+  padding: 20px;
+  /* Adicione espaçamento conforme necessário */  
 }
 
 .image-c img {
   max-width: 100%;
-  height: auto;
-  display: block;
+  height: auto; 
 }
 
 .content {
@@ -994,4 +995,51 @@ header .navbar a:hover {
 .content li {
   font-size: 2rem;
   color: #666;
+}
+/*parte do colaborar*/
+
+.colabore{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/fundo.png);
+}
+
+.colabore .image image-pix {
+  width: 25vw;
+  display: none;
+}
+
+.colabore .content {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.colabore .content h3 {
+  font-size: 4rem;
+  color: #92593e;
+  margin-bottom: 10px;
+}
+
+.colabore .content p {
+  font-size: 2.5rem;
+  color: #666;
+  text-align: left;
+}
+
+.image-pix {
+  flex: 1; /* A imagem ocupará metade da largura da seção, ajuste conforme necessário */
+  padding: 20px; /* Adicione espaçamento conforme necessário */
+}
+
+.image-pix img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content-whatsapp{
+  margin: 10px 0;
+  text-align: left;
+  font-size: 2.5rem;
 }
