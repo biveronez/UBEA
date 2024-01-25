@@ -28,8 +28,6 @@ html {
 section {
   min-height: 100vh;
   padding: 0 7%;
-  padding-top: 11rem;
-  padding-bottom: 9rem;
 }
 
 /*modificações*/
@@ -161,7 +159,7 @@ header .navbar a:hover {
 }
 
 .home .content {
-  max-width: 45%;
+  max-width: 42%;
 }
 
 .home .content h1 {
@@ -234,6 +232,7 @@ header .navbar a:hover {
 .services {
   position: relative;
   background-color: #fffcf7;
+  padding-top: 11rem;
 }
 
 .services .box-container {
@@ -554,9 +553,7 @@ header .navbar a:hover {
   }
 
   section {
-    padding: 0 30px;
-    padding-top: 11rem;
-    padding-bottom: 9rem;
+    padding: 0 30px
   }
 }
 
@@ -639,16 +636,13 @@ header .navbar a:hover {
     align-items: start;
   }
 
-  .contact{
-    align-items: end;
-  }
-
   .contact .box{
     font-size: 35%;
+    text-align: center;
   }
 
   html{
-    font-size: 50%;
+    font-size: 55%;
   }
 
   .calendario .image-c{
@@ -668,7 +662,14 @@ header .navbar a:hover {
   .contact .row .contact-info .box .title,
   .contact .row .contact-info .box p,
   .contact .row .contact-info .box a {
-    color: #361700 !important;
+    color: #92593e !important;
+    align-items: top;
+  }
+
+  .contact .row .contact-info{
+    border: 2px solid #92593e;
+    border-radius: 10px;
+    padding: 10px;
   }
 
   .sobre,
@@ -687,8 +688,8 @@ header .navbar a:hover {
     object-fit: contain;
   }
 
-  .image-gm img {
-    width: auto;
+  section .image-gm img {
+    width: 100%;
   }
   .image-pix img {
     width: auto;
@@ -701,6 +702,23 @@ header .navbar a:hover {
   #calendarios .content {
     flex-grow: unset;
   }
+  
+  .background-2 {
+    background: unset;
+    background-color: #FFFCF7;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .services {
+    padding-top: 17rem;
+  }
+
+  section {
+    padding-top: 15.5rem;
+  }
+
+
    
 }
 
@@ -967,6 +985,7 @@ header .navbar a:hover {
 
 .image-gm img {
   max-width: 100%;
+  width: 80%;
   height: auto;
   display: block;
 }
