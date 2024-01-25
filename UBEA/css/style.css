@@ -553,7 +553,7 @@ header .navbar a:hover {
   }
 
   section {
-    padding: 0 30px
+    padding: 0 30px;
   }
 }
 
@@ -636,6 +636,14 @@ header .navbar a:hover {
     align-items: start;
   }
 
+  .home .content h1{
+    font-size: 20px;
+  }
+
+  .home .content p {
+    font-size: 12px;
+  }
+
   .contact .box{
     font-size: 35%;
     text-align: center;
@@ -669,7 +677,6 @@ header .navbar a:hover {
   .contact .row .contact-info{
     border: 2px solid #92593e;
     border-radius: 10px;
-    padding: 10px;
   }
 
   .sobre,
@@ -708,6 +715,7 @@ header .navbar a:hover {
     background-color: #FFFCF7;
     background-size: cover;
     background-position: center;
+    padding: 25px;
   }
 
   .services {
