@@ -158,8 +158,8 @@ header .navbar a:hover {
   height: 100vh;
 }
 
-.home .content {
-  max-width: 42%;
+.home .content .titulo {
+  max-width: 45%;
 }
 
 .home .content h1 {
@@ -175,7 +175,7 @@ header .navbar a:hover {
 .home .content p {
   font-size: 2.5rem;
   color: #333;
-  text-align: justify;
+  max-width: 42%;
 }
 
 .home .image img {
@@ -590,12 +590,12 @@ header .navbar a:hover {
     display: none;
   }
 
-  .home .content {
+  .home .content .titulo {
     text-align: center;
   }
 
   .home .content h1 {
-    font-size: 3.5rem;
+    font-size: 2.0rem;
     color:#92593e;
   }
 
@@ -604,7 +604,8 @@ header .navbar a:hover {
   }
 
   .home .content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .features {
@@ -628,11 +629,15 @@ header .navbar a:hover {
 
 @media (max-width: 450px) {
 
-  .home .content{
+  .home .content .titulo{
     max-width: 100%;
   }
 
-  .home{
+  .home .content p {
+    max-width: 100%;
+  }
+
+  .home {
     align-items: start;
   }
 
